@@ -2,12 +2,12 @@
 using namespace std;
 int main(){
     int respuesta;
-    float a, b, techo, hola;
+    float a, b, techo, aux;
     cin >> a >> b;
     techo = a / b;
     respuesta = a / b;
-    hola = techo - respuesta;
-    if (hola > 0){
+    aux = techo - respuesta;
+    if (aux > 0){
         respuesta += 1;
     }
     cout << respuesta << endl;
