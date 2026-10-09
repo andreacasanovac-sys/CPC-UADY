@@ -10,7 +10,8 @@ int main(){
 
      cout << "YES" << endl;
 
-    }else{
+    }
+    else{
         cout << "NO" << endl;
     }
     return 0;
